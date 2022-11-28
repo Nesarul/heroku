@@ -31,7 +31,7 @@ if (!empty($_FILES['imageFile'])) {
             ); 
             $postfields = array(
                 // "content" => "https://boredhumans.b-cdn.net/faces2/30.jpg", 
-                "content" => "https://sohana.herokuapp.com".$newName, 
+                "content" => "https://sohana.herokuapp.com/".$newName, 
                 "style" => "https://boredhumans.com/image_style_transfer/styles/Picassso.jpg"
             );  
 
