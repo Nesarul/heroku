@@ -18,7 +18,7 @@
 			grecaptcha.ready(function() {
 				// grecaptcha.execute('6LcIu0gjAAAAAKvA4UxSEWNtWl_U5nWHhj9Y_1By', {action: 'submit'}).then(function(token) {
 				grecaptcha.execute('6LcIu0gjAAAAAKvA4UxSEWNtWl_U5nWHhj9Y_1By', {action: 'homepage'}).then(function(token) {
-					getElementById('secToken').value=token;
+					console.log(token);
 				});
 				});
 		// }
