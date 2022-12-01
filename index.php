@@ -16,11 +16,11 @@
 		function onClick(e) {
 			e.preventDefault();
 			grecaptcha.ready(function() {
-			//   grecaptcha.execute('6LcIu0gjAAAAAKvA4UxSEWNtWl_U5nWHhj9Y_1By', {action: 'submit'}).then(function(token) {
-			grecaptcha.execute('6LcIu0gjAAAAAKvA4UxSEWNtWl_U5nWHhj9Y_1By', {action: 'homepage'}).then(function(token) {
-				console.log(token);
-			});
-			});
+				//   grecaptcha.execute('6LcIu0gjAAAAAKvA4UxSEWNtWl_U5nWHhj9Y_1By', {action: 'submit'}).then(function(token) {
+				grecaptcha.execute('6LcIu0gjAAAAAKvA4UxSEWNtWl_U5nWHhj9Y_1By', {action: 'homepage'}).then(function(token) {
+					console.log(token);
+				});
+				});
 		}
 	</script>
 	</head>
@@ -29,6 +29,7 @@
 			<div class="row">
 			<div class="col">
 				<h1>Bismillahir Rahmanir Rahim</h1>
+				<h2>Alah Hu Akbar</h2>
 			</div>
 			</div>
 			<div class="row">
