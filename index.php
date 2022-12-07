@@ -12,16 +12,7 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 		<script src="https://www.google.com/recaptcha/api.js?render=6LcIu0gjAAAAAKvA4UxSEWNtWl_U5nWHhj9Y_1By"></script>
-		<script>
-		// function onClick(e) {
-		// 	e.preventDefault();
-			grecaptcha.ready(function() {
-				// grecaptcha.execute('6LcIu0gjAAAAAKvA4UxSEWNtWl_U5nWHhj9Y_1By', {action: 'submit'}).then(function(token) {
-				grecaptcha.execute('6LcIu0gjAAAAAKvA4UxSEWNtWl_U5nWHhj9Y_1By', {action: 'homepage'}).then(function(token) {
-					console.log(token);
-				});
-				});
-		// }
+		
 	</script>
 	</head>
 	<body>
@@ -54,6 +45,14 @@
 			</div>
 			</div>
 		</div>
+		<script>
+		
+			grecaptcha.ready(function() {
+				// grecaptcha.execute('6LcIu0gjAAAAAKvA4UxSEWNtWl_U5nWHhj9Y_1By', {action: 'submit'}).then(function(token) {
+				grecaptcha.execute('6LcIu0gjAAAAAKvA4UxSEWNtWl_U5nWHhj9Y_1By', {action: 'homepage'}).then(function(token) {
+					docuemnt.getElementById('secToken').value = token;
+				});
+			});
 		
 	</body>
 	</html>
